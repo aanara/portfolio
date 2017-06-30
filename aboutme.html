@@ -2,10 +2,12 @@
 <html>
 <head>
   <style>
-  div.container {
+  div.myDiv {
     width: 100%;
-    border: 1px solid gray;
+    height: 100px
+   
 }
+
 header, footer {
     padding: 1em;
     color: black;
@@ -14,9 +16,10 @@ header, footer {
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
-};
-    clear: left;
+    clear: riht;
     text-align: center;
+};
+    
 }
 nav {
     float: left;
@@ -47,7 +50,7 @@ p {
 }
 article {
     margin-left: 170px;
-    border-left: 1px solid gray;
+    border-left: 1px white;
     padding: 1em;
     overflow: hidden;
 }
@@ -59,18 +62,21 @@ article {
 <header>
    <h1 style="font-family:Brush Script Std, Brush Script MT, cursive;">Aarthi Ramsundar</h1>
 </header>
-<div class="container">
- 
-<nav>
+
+<div id="myDiv">
+ <nav>
   <ul>
-    <li><img src="20170430_184538.jpg" alt="Picture of Me" style="width:160px;height:150px;"></li>
+    <li><img src="20170430_184538.jpg" alt="Aarthi Ramsundar" style="width:175px;height:228px;">
+</li>
   </ul>
 </nav>
+
 <article>
 <h1 style="font-family:Lucida Sans Unicode;">About Aarthi</h1>
 <p style="font-family:Lucida Sans Unicode;">My name is Aarthi and I'm 16 years old. I live in Fremont, California, which is one of the awesomest places ever. I just finished
 junior year in high school, and I'm spending my summer at the girls who code program at EA! I'm excited for senior year. 
 My hobbies are coding, reading, and painting. This is my first webpage :) </p>
 </article>
+</div>
 </body>
 </html>
