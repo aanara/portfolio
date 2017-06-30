@@ -7,6 +7,27 @@
     height: 100px
    
 }
+  div.Div {
+    width: 100%;
+    height: 100px
+   
+}
+#parent_div_1{
+    width:250px;
+    height:300px;
+    border:1px solid white;
+    margin-right:10px;
+    float:left;
+}
+
+#parent_div_2{
+    width:900px;
+    height:300px;
+    border:1px solid white;
+    margin-right:10px;
+    float:left;
+}
+
 
 header, footer {
     padding: 1em;
@@ -16,14 +37,13 @@ header, footer {
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
-    clear: riht;
+    clear: right;
     text-align: center;
 };
     
 }
 nav {
     float: left;
-    max-width: 160px;
     margin: 0;
     padding: 1em;
 }
@@ -48,12 +68,7 @@ p {
     background-color:#4cffdb;
    border: 1px solid white;
 }
-article {
-    margin-left: 170px;
-    border-left: 1px white;
-    padding: 1em;
-    overflow: hidden;
-}
+
      </style>
   
 <title>About Me</title>
@@ -64,19 +79,20 @@ article {
 </header>
 
 <div id="myDiv">
- <nav>
-  <ul>
-    <li><img src="20170430_184538.jpg" alt="Aarthi Ramsundar" style="width:175px;height:228px;">
-</li>
-  </ul>
-</nav>
+ 
+<div id='parent_div_1'>
+<div class ='child_div_1'><img src="20170430_184538.jpg" alt="Aarthi Ramsundar" style="width:250px;height:300px;"></div>
 
-<article>
+</div>
+
+<div id='parent_div_2'>
+<div class ='child_div_1'></div>
+
 <h1 style="font-family:Lucida Sans Unicode;">About Aarthi</h1>
 <p style="font-family:Lucida Sans Unicode;">My name is Aarthi and I'm 16 years old. I live in Fremont, California, which is one of the awesomest places ever. I just finished
 junior year in high school, and I'm spending my summer at the girls who code program at EA! I'm excited for senior year. 
 My hobbies are coding, reading, and painting. This is my first webpage :) </p>
-</article>
+
 </div>
 </body>
 </html>
